@@ -8,7 +8,7 @@ import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 
 export default function Sidebar() {
     return (
-        <div className="sidebar  flex-1 h-almost bg-green-light sticky top-12">
+        <div className="sidebar rounded-tr-3xl flex-1 h-almost bg-green-light sticky top-12">
             <div className="sidebarwrapper p-5 text-blacks">
                 <div className="sidebarmenu mb-3.5">
                     <h3 className="sidebartitle text-3xl text-gray-dark"><strong>DashBoard</strong></h3>
