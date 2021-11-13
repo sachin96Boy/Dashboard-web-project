@@ -3,7 +3,7 @@ import FeaturedInfo from '../../featuredinfo/FeaturedInfo'
 
 export default function Home() {
     return (
-        <div className="home flex-4">
+        <div className="home">
            <FeaturedInfo />
         </div>
     )

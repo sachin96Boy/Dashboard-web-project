@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="body m-0 p-0 box-border overflow-hidden">
       <Topbar />
-      <div className="container flex">
+      <div className="container flex flex-1 mt-5 overflow-y-hidden">
         <Sidebar />
+        <div className="other-content overflow-y-auto">
         <Home />
+        </div>
       </div>
     </div>
   );
